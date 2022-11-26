@@ -92,4 +92,12 @@ public class PlayerControler : MonoBehaviour
         //Moves the player
         trans.position = trans.position + new Vector3(playerMovementDirection.x * Speed, playerMovementDirection.y * Speed, 0);
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.tag == "Ammo")
+        {
+            Ammo += 15;
+        }
+    }
 }
