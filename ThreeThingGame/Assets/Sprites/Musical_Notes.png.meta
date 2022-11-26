@@ -1,4 +1,5 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 8476c79705b9d09418d8c440338074b1
 TextureImporter:
   internalIDToNameTable:
@@ -14,6 +15,11 @@ TextureImporter:
   - first:
       213: 6595839111239107328
     second: Musical_Notes_3
+=======
+guid: 2894bff6b5f934c4cbe0507d05e1ac36
+TextureImporter:
+  internalIDToNameTable: []
+>>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,10 +38,18 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+<<<<<<< HEAD
+=======
+    flipGreenChannel: 0
+>>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+<<<<<<< HEAD
+=======
+  ignoreMasterTextureLimit: 0
+>>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -74,6 +88,10 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+<<<<<<< HEAD
+=======
+  swizzle: 50462976
+>>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -100,6 +118,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+<<<<<<< HEAD
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -113,6 +132,9 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+=======
+    buildTarget: Server
+>>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -127,7 +149,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
+<<<<<<< HEAD
       name: Musical_Notes_0
+=======
+      name: Semiqaver
+>>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
       rect:
         serializedVersion: 2
         x: 448
@@ -141,14 +167,23 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: cdd07d0322ff8c220800000000000000
       internalID: 2506533714945052124
+=======
+      spriteID: 4ed28d6c968ea8647a76145467af51e0
+      internalID: 1749136
+>>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<< HEAD
       name: Musical_Notes_1
+=======
+      name: quaver
+>>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
       rect:
         serializedVersion: 2
         x: 1472
@@ -162,14 +197,23 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: e372042719a8488b0800000000000000
       internalID: -5150839716513306818
+=======
+      spriteID: df20c1f906f5d5d45a0a8e31cbbb93bc
+      internalID: -2093400708
+>>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<< HEAD
       name: Musical_Notes_2
+=======
+      name: coffe
+>>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
       rect:
         serializedVersion: 2
         x: 384
@@ -183,14 +227,23 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 60aea3110d92cb7a0800000000000000
       internalID: -6360162600134972922
+=======
+      spriteID: f6b614b0233fc8046a53624472a1f17a
+      internalID: -1794282984
+>>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<< HEAD
       name: Musical_Notes_3
+=======
+      name: double coffe
+>>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
       rect:
         serializedVersion: 2
         x: 1408
@@ -204,8 +257,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 0030905b9b0298b50800000000000000
       internalID: 6595839111239107328
+=======
+      spriteID: 8d1ff58fd5506a9479fa10b72d504ef7
+      internalID: -2067526356
+>>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
       vertices: []
       indices: 
       edges: []
@@ -220,9 +278,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+<<<<<<< HEAD
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
+=======
+    nameFileIdTable:
+      coffe: -1794282984
+      Semiqaver: 1749136
+      double coffe: -2067526356
+      quaver: -2093400708
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+>>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
   userData: 
   assetBundleName: 
   assetBundleVariant: 

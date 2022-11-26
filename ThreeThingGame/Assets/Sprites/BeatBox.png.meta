@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: a726c5e8d5bddbf4d9eaf38ac9d9f84f
+=======
+guid: b69521b11bb20cd42a25e35c016ac339
+>>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -20,10 +24,18 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+<<<<<<< HEAD
+=======
+    flipGreenChannel: 0
+>>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+<<<<<<< HEAD
+=======
+  ignoreMasterTextureLimit: 0
+>>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -62,6 +74,10 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+<<<<<<< HEAD
+=======
+  swizzle: 50462976
+>>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -88,6 +104,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+<<<<<<< HEAD
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -101,6 +118,9 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+=======
+    buildTarget: Server
+>>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -124,9 +144,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+<<<<<<< HEAD
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
+=======
+    nameFileIdTable: {}
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+>>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
   userData: 
   assetBundleName: 
   assetBundleVariant: 

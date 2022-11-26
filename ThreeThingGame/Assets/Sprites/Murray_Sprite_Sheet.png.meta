@@ -1,4 +1,5 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 71bb8762e1894914b95aa6bfc361be7d
 TextureImporter:
   internalIDToNameTable:
@@ -20,6 +21,11 @@ TextureImporter:
   - first:
       213: 915602595623984595
     second: Murray_Sprite_Sheet_5
+=======
+guid: ff7b648eab919fe4eb667ed6a89a55d6
+TextureImporter:
+  internalIDToNameTable: []
+>>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -38,10 +44,18 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+<<<<<<< HEAD
+=======
+    flipGreenChannel: 0
+>>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+<<<<<<< HEAD
+=======
+  ignoreMasterTextureLimit: 0
+>>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -80,6 +94,10 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+<<<<<<< HEAD
+=======
+  swizzle: 50462976
+>>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -106,6 +124,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+<<<<<<< HEAD
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -119,6 +138,9 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+=======
+    buildTarget: Server
+>>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -133,6 +155,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
+<<<<<<< HEAD
       name: Murray_Sprite_Sheet_0
       rect:
         serializedVersion: 2
@@ -140,6 +163,15 @@ TextureImporter:
         y: 2239
         width: 385
         height: 546
+=======
+      name: Walk1
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 2239
+        width: 387
+        height: 547
+>>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,13 +179,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 717b22aed51dc7290800000000000000
       internalID: -7891202245769644265
+=======
+      spriteID: 37ffe91de17e5fd42b4f446e5a7381c9
+      internalID: 402469886
+>>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<< HEAD
       name: Murray_Sprite_Sheet_1
       rect:
         serializedVersion: 2
@@ -161,6 +199,15 @@ TextureImporter:
         y: 2239
         width: 385
         height: 546
+=======
+      name: Walk2
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 2239
+        width: 387
+        height: 547
+>>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,13 +215,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 5b1aca299277c3380800000000000000
       internalID: -8990179735700201035
+=======
+      spriteID: 5401bca982e11cc4f960840fcbe8f192
+      internalID: -1160711362
+>>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<< HEAD
       name: Murray_Sprite_Sheet_2
       rect:
         serializedVersion: 2
@@ -182,6 +235,15 @@ TextureImporter:
         y: 1215
         width: 385
         height: 546
+=======
+      name: Idol
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1214
+        width: 387
+        height: 548
+>>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -189,13 +251,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 23fb91cd651dbfe90800000000000000
       internalID: -6990763825572495566
+=======
+      spriteID: 2624d8f461b6d274fbf4a7acd8f54db4
+      internalID: -118863766
+>>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<< HEAD
       name: Murray_Sprite_Sheet_3
       rect:
         serializedVersion: 2
@@ -203,6 +271,15 @@ TextureImporter:
         y: 1215
         width: 385
         height: 577
+=======
+      name: Shoot1
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 1214
+        width: 387
+        height: 579
+>>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -210,13 +287,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: bcbf01c83aebbfa30800000000000000
       internalID: 4250200282993064907
+=======
+      spriteID: 745d07e68c51a354fa9a1a9368cb2eaa
+      internalID: 1943770942
+>>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<< HEAD
       name: Murray_Sprite_Sheet_4
       rect:
         serializedVersion: 2
@@ -224,6 +307,15 @@ TextureImporter:
         y: 190
         width: 385
         height: 611
+=======
+      name: Shoot3
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 190
+        width: 387
+        height: 612
+>>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -231,13 +323,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 897612d4099d25950800000000000000
       internalID: 6436446031258412952
+=======
+      spriteID: 5af61247dbe8eaf4098b114d4908cf6d
+      internalID: -173987944
+>>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<< HEAD
       name: Murray_Sprite_Sheet_5
       rect:
         serializedVersion: 2
@@ -245,6 +343,15 @@ TextureImporter:
         y: 190
         width: 385
         height: 611
+=======
+      name: Shoot2
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 190
+        width: 387
+        height: 612
+>>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -252,8 +359,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 3ddd79ba5bfd4bc00800000000000000
       internalID: 915602595623984595
+=======
+      spriteID: ffe352671d8ccaf44a09009acbbff371
+      internalID: -162881862
+>>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
       vertices: []
       indices: 
       edges: []
@@ -268,9 +380,21 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+<<<<<<< HEAD
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
+=======
+    nameFileIdTable:
+      Idol: -118863766
+      Shoot1: 1943770942
+      Walk2: -1160711362
+      Shoot2: -162881862
+      Shoot3: -173987944
+      Walk1: 402469886
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+>>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
   userData: 
   assetBundleName: 
   assetBundleVariant: 
