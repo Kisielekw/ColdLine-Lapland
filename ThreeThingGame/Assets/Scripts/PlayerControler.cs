@@ -10,6 +10,7 @@ public class PlayerControler : MonoBehaviour
     public float BulletSpeed = 20;
     public GameObject Bullet;
     public int Ammo = 50;
+    public int Health = 1;
 
     private Transform trans;
     private Vector2 playerMovementDirection;
