@@ -59,7 +59,7 @@ public class Caroller : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if(aimVector.magnitude > 4.5f)
+        if (aimVector.magnitude > 4.5f && aimVector.magnitude < 20)
         {
             aimVector.Normalize();
             Velocity = aimVector * 0.1f;
