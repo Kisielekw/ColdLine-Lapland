@@ -6,10 +6,12 @@ using UnityEngine.Animations;
 
 public class PlayerControler : MonoBehaviour
 {
-    public float Speed;
+    public float Speed = 0.1f;
+    public float BulletSpeed = 20;
+    public GameObject Bullet;
+    public int Ammo = 50;
 
     private Transform trans;
-
     private Vector2 playerMovementDirection;
 
     // Start is called before the first frame update
@@ -49,6 +51,40 @@ public class PlayerControler : MonoBehaviour
 
         //Normalises the value
         playerMovementDirection.Normalize();
+
+        //Rotation
+        Vector2 screenSize = new Vector2(Screen.width / 2, Screen.height / 2);
+        Vector2 mousePos = Input.mousePosition;
+
+        mousePos -= screenSize;
+
+        //Finding the agle of the mouse
+        float angle = Vector2.SignedAngle(Vector2.up, mousePos);
+
+        //changing the rotation of character
+        trans.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+        //reseting rotation of camera
+        GameObject.Find("Main Camera").GetComponent<Transform>().rotation = Quaternion.identity;
+
+
+
+
+        if (Input.GetMouseButtonDown(0) && Ammo > 0)
+        {
+            GameObject shot = GameObject.Instantiate(Bullet);
+            Ammo--;
+
+            Transform shotTrans = shot.GetComponent<Transform>();
+
+            Vector2 translate = mousePos;
+            translate.Normalize();
+            shotTrans.position = trans.position + new Vector3(translate.x * 0.75f, translate.y * 0.75f, 0);
+            shotTrans.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+
+            Rigidbody2D shotPhys = shot.GetComponent<Rigidbody2D>();
+            shotPhys.velocity = translate * BulletSpeed;
+            GameObject.Destroy(shot, 2);
+        }
     }
 
     void FixedUpdate()
