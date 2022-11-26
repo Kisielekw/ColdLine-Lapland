@@ -1,5 +1,4 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: 8a1bed66df24f2a48aee543e8361bd80
 TextureImporter:
   internalIDToNameTable:
@@ -21,11 +20,6 @@ TextureImporter:
   - first:
       213: -3020333543138764150
     second: Red_Caroller_5
-=======
-guid: 803ebe93f882bd6419b33aa075bb053a
-TextureImporter:
-  internalIDToNameTable: []
->>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -44,18 +38,10 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-<<<<<<< HEAD
-=======
-    flipGreenChannel: 0
->>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-<<<<<<< HEAD
-=======
-  ignoreMasterTextureLimit: 0
->>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -69,7 +55,7 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -93,18 +79,14 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
-<<<<<<< HEAD
-=======
-  swizzle: 50462976
->>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -116,7 +98,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -124,12 +106,11 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-<<<<<<< HEAD
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -138,13 +119,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
-=======
-    buildTarget: Server
->>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -155,19 +133,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-<<<<<<< HEAD
       name: Red_Caroller_0
       rect:
         serializedVersion: 2
         x: 255
         y: 2144
-=======
-      name: Walk 1
-      rect:
-        serializedVersion: 2
-        x: 255
-        y: 2143
->>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
         width: 450
         height: 513
       alignment: 0
@@ -177,31 +147,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
       spriteID: dc6956ac27a48c5b0800000000000000
       internalID: -5347942700620081459
-=======
-      spriteID: c69f69e218325dc418db4a39ea58c6cc
-      internalID: -497391274
->>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<< HEAD
       name: Red_Caroller_1
       rect:
         serializedVersion: 2
         x: 1280
         y: 2144
-=======
-      name: Walk 2
-      rect:
-        serializedVersion: 2
-        x: 1284
-        y: 2143
->>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
         width: 450
         height: 513
       alignment: 0
@@ -211,19 +168,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
       spriteID: 059a3028724b58ea0800000000000000
       internalID: -5871088457429571248
-=======
-      spriteID: 9f628b10a483b92459c585ed8f376b60
-      internalID: -3477050
->>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<< HEAD
       name: Red_Caroller_2
       rect:
         serializedVersion: 2
@@ -231,15 +182,6 @@ TextureImporter:
         y: 2144
         width: 450
         height: 481
-=======
-      name: Idol
-      rect:
-        serializedVersion: 2
-        x: 2302
-        y: 2143
-        width: 450
-        height: 482
->>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,23 +189,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
       spriteID: b3f3b7dc1b55f2a70800000000000000
       internalID: 8804350018677587771
-=======
-      spriteID: 35e261b121be0424cb34691808a1b385
-      internalID: 1804154297
->>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<< HEAD
       name: Red_Caroller_3
-=======
-      name: Shoot 1
->>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
       rect:
         serializedVersion: 2
         x: 255
@@ -277,29 +210,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
       spriteID: 4e920f26b63f4b8b0800000000000000
       internalID: -5137213632375936540
-=======
-      spriteID: 8e6d1afeb3f572447977daa480825726
-      internalID: 987583560
->>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<< HEAD
       name: Red_Caroller_4
       rect:
         serializedVersion: 2
         x: 1280
-=======
-      name: Shoot 2
-      rect:
-        serializedVersion: 2
-        x: 1279
->>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
         y: 1119
         width: 450
         height: 642
@@ -310,29 +231,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
       spriteID: 39a9fce8eedbd7ba0800000000000000
       internalID: -6089502288839206253
-=======
-      spriteID: cf7d0a07c7b602a46a88512c245c302a
-      internalID: 1826038300
->>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-<<<<<<< HEAD
       name: Red_Caroller_5
       rect:
         serializedVersion: 2
         x: 2303
-=======
-      name: Shoot 3
-      rect:
-        serializedVersion: 2
-        x: 2302
->>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
         y: 1119
         width: 450
         height: 642
@@ -343,13 +252,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< HEAD
       spriteID: a8a540a15ae9516d0800000000000000
       internalID: -3020333543138764150
-=======
-      spriteID: 59888a0ff222566418e6e8b365d44168
-      internalID: -677048147
->>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
       vertices: []
       indices: 
       edges: []
@@ -364,23 +268,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-<<<<<<< HEAD
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
-=======
-    nameFileIdTable:
-      Red_Caroller_7: 1570556633
-      Walk 1: -497391274
-      Shoot 3: -677048147
-      Idol: 1804154297
-      Walk 2: -3477050
-      Shoot 2: 1826038300
-      Shoot 1: 987583560
-      Red_Caroller_6: 1929653299
-  spritePackingTag: 
-  pSDRemoveMatte: 0
->>>>>>> 754f77e785c8933c3355c3f1e1e23ace6e27c3a6
   userData: 
   assetBundleName: 
   assetBundleVariant: 
