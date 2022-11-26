@@ -21,7 +21,6 @@ public class PlayerControler : MonoBehaviour
     {
         trans = this.GetComponent<Transform>();
         RB2D = GetComponent<Rigidbody2D>();
-        RB2D.isKinematic = true;
     }
 
     // Update is called once per frame
@@ -95,6 +94,8 @@ public class PlayerControler : MonoBehaviour
     {
         //Moves the player
         trans.position = trans.position + new Vector3(playerMovementDirection.x * Speed, playerMovementDirection.y * Speed, 0);
+        RB2D.velocity = Vector2.zero;
+        RB2D.angularVelocity = 0;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -107,6 +108,7 @@ public class PlayerControler : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        
         if(collision.gameObject.tag == "Enemy")
         {
             Health--;
