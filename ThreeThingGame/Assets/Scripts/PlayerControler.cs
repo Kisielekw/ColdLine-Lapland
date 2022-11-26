@@ -13,12 +13,15 @@ public class PlayerControler : MonoBehaviour
     public int Health = 1;
 
     private Transform trans;
+    private Rigidbody2D RB2D;
     private Vector2 playerMovementDirection;
 
     // Start is called before the first frame update
     void Start()
     {
         trans = this.GetComponent<Transform>();
+        RB2D = GetComponent<Rigidbody2D>();
+        RB2D.isKinematic = true;
     }
 
     // Update is called once per frame
@@ -99,6 +102,14 @@ public class PlayerControler : MonoBehaviour
         if(collision.gameObject.tag == "Ammo")
         {
             Ammo += 15;
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.tag == "Enemy")
+        {
+            Health--;
         }
     }
 }
