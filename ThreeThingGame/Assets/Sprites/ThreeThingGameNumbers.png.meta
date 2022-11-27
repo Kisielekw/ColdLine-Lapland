@@ -1,25 +1,37 @@
 fileFormatVersion: 2
-guid: 71bb8762e1894914b95aa6bfc361be7d
+guid: 7ba2d06b0232ec744a971b6f31ef0933
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7891202245769644265
-    second: Murray_Sprite_Sheet_0
+      213: 1439085312114150157
+    second: 1
   - first:
-      213: -8990179735700201035
-    second: Murray_Sprite_Sheet_1
+      213: -843680730893511873
+    second: 2
   - first:
-      213: -6990763825572495566
-    second: Murray_Sprite_Sheet_2
+      213: 8557504946008329945
+    second: 3
   - first:
-      213: 4250200282993064907
-    second: Murray_Sprite_Sheet_3
+      213: -4708057006036769089
+    second: 4
   - first:
-      213: 6436446031258412952
-    second: Murray_Sprite_Sheet_4
+      213: 3188750286992388307
+    second: 5
   - first:
-      213: 915602595623984595
-    second: Murray_Sprite_Sheet_5
+      213: -774602017539431854
+    second: 6
+  - first:
+      213: -8581090589628339729
+    second: 7
+  - first:
+      213: -3410319173165633920
+    second: 8
+  - first:
+      213: 2007984658880479752
+    second: 9
+  - first:
+      213: 5252668627379988952
+    second: 0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -55,7 +67,7 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 0
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -79,14 +91,14 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 1
+  applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -98,7 +110,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -110,7 +122,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -122,7 +134,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -133,127 +145,211 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Murray_Sprite_Sheet_0
+      name: 1
       rect:
         serializedVersion: 2
-        x: 320
-        y: 2239
-        width: 385
-        height: 546
-      alignment: 9
-      pivot: {x: 0.5000002, y: 0.3517959}
+        x: 0
+        y: 24
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 717b22aed51dc7290800000000000000
-      internalID: -7891202245769644265
+      spriteID: d0bcb0e7778a8f310800000000000000
+      internalID: 1439085312114150157
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Murray_Sprite_Sheet_1
+      name: 2
       rect:
         serializedVersion: 2
-        x: 1343
-        y: 2239
-        width: 385
-        height: 546
-      alignment: 9
-      pivot: {x: 0.513266, y: 0.34720954}
+        x: 7
+        y: 24
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b1aca299277c3380800000000000000
-      internalID: -8990179735700201035
+      spriteID: f33104368d4aa44f0800000000000000
+      internalID: -843680730893511873
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Murray_Sprite_Sheet_2
+      name: 3
       rect:
         serializedVersion: 2
-        x: 320
-        y: 1215
-        width: 385
-        height: 546
-      alignment: 9
-      pivot: {x: 0.49999985, y: 0.3596822}
+        x: 14
+        y: 24
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23fb91cd651dbfe90800000000000000
-      internalID: -6990763825572495566
+      spriteID: 9de8976a86d52c670800000000000000
+      internalID: 8557504946008329945
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Murray_Sprite_Sheet_3
+      name: 4
       rect:
         serializedVersion: 2
-        x: 1343
-        y: 1215
-        width: 385
-        height: 577
-      alignment: 9
-      pivot: {x: 0.5221106, y: 0.3377144}
+        x: 21
+        y: 24
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bcbf01c83aebbfa30800000000000000
-      internalID: 4250200282993064907
+      spriteID: fb6a3ece81f99aeb0800000000000000
+      internalID: -4708057006036769089
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Murray_Sprite_Sheet_4
+      name: 5
       rect:
         serializedVersion: 2
-        x: 320
-        y: 190
-        width: 385
-        height: 611
-      alignment: 9
-      pivot: {x: 0.5221106, y: 0.32166716}
+        x: 0
+        y: 15
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 897612d4099d25950800000000000000
-      internalID: 6436446031258412952
+      spriteID: 3d03b95cd77b04c20800000000000000
+      internalID: 3188750286992388307
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Murray_Sprite_Sheet_5
+      name: 6
       rect:
         serializedVersion: 2
-        x: 1343
-        y: 190
-        width: 385
-        height: 611
-      alignment: 9
-      pivot: {x: 0.513266, y: 0.32166716}
+        x: 7
+        y: 15
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ddd79ba5bfd4bc00800000000000000
-      internalID: 915602595623984595
+      spriteID: 252e24ea19f0045f0800000000000000
+      internalID: -774602017539431854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 15
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe961c3c297d9e880800000000000000
+      internalID: -8581090589628339729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 15
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e22c8d7cc1ca0d0800000000000000
+      internalID: -3410319173165633920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8024103986bcddb10800000000000000
+      internalID: 2007984658880479752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 6
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9a2d9694a35e840800000000000000
+      internalID: 5252668627379988952
       vertices: []
       indices: 
       edges: []
@@ -261,7 +357,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 719bb46c513b8ac49a9db373226a8b44
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
