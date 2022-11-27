@@ -9,8 +9,8 @@ public class PlayerControler : MonoBehaviour
     public float Speed = 0.1f;
     public float BulletSpeed = 20;
     public GameObject Bullet;
-    public int Ammo = 50;
-    public int Health = 1;
+    public int Ammo = 20;
+    public int Health = 5;
 
     private Transform trans;
     private Rigidbody2D RB2D;
@@ -26,6 +26,11 @@ public class PlayerControler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(Health == 0)
+        {
+            Application.LoadLevel(2);
+        }
+
         //Gets the key inputs for the movement and sets the direction
         if (Input.GetKey(KeyCode.W))
         {
@@ -106,12 +111,13 @@ public class PlayerControler : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        
-        if(collision.gameObject.tag == "Enemy")
+
+        if (collision.gameObject.tag == "Enemy")
         {
             Health--;
+            Debug.Log(Health);
         }
     }
 }
