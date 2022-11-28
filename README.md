@@ -12,5 +12,5 @@ We thought up of a topdown shooter in which you use a shotgun filled with mincep
 
 [Thomas](https://github.com/OneGingerBiscuit) Created the level and the art for the game
 
-and [Kai]((https://github.com/KEDW02) Came up with most of the ideas we implomented
+and [Kai](https://github.com/KEDW02) Came up with most of the ideas we implomented
 
