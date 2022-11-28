@@ -8,6 +8,7 @@ public class Caroller : MonoBehaviour
     public int Health = 1;
     public float ShotInterval = 2;
     public bool isBoss = false;
+    public Sprite green;
     
     private float nextShot;
     private Vector2 aimVector;
@@ -23,6 +24,11 @@ public class Caroller : MonoBehaviour
         playerTrans = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         RB2D = GetComponent<Rigidbody2D>();
         nextShot = Time.time;
+
+        if(Random.Range(0,3) == 0 && !isBoss)
+        {
+            GetComponent<SpriteRenderer>().sprite = green;
+        }
     }
 
     // Update is called once per frame

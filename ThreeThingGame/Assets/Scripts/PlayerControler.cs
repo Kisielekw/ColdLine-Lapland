@@ -11,6 +11,7 @@ public class PlayerControler : MonoBehaviour
     public GameObject Bullet;
     public int Ammo = 20;
     public int Health = 5;
+    public AudioClip bang;
 
     private Transform trans;
     private Rigidbody2D RB2D;
@@ -81,6 +82,7 @@ public class PlayerControler : MonoBehaviour
         {
             GameObject shot = GameObject.Instantiate(Bullet);
             Ammo--;
+            GetComponent<AudioSource>().PlayOneShot(bang);
 
             Transform shotTrans = shot.GetComponent<Transform>();
 
