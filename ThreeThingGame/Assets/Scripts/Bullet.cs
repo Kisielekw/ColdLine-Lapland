@@ -4,11 +4,24 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    public AudioClip HitSound;
+    public Sprite[] sprites;
+    public AudioClip[] HitSounds;
+
+    private void Start()
+    {
+        Sprite chosen = sprites[Random.Range(0, sprites.Length - 1)];
+        GetComponent<SpriteRenderer>().sprite = chosen;
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        GetComponent<AudioSource>().PlayOneShot(HitSound);
-        GetComponent<Transform>().position = new Vector3(1000,1000,100);
+        if(HitSounds.Length > 0)
+        { 
+            AudioClip chosen = HitSounds[Random.Range(0, HitSounds.Length - 1)];
+            GetComponent<AudioSource>().PlayOneShot(chosen);
+        }
+        GetComponent<Collider2D>().enabled = false;
+        GetComponent<SpriteRenderer>().enabled = false;
         Destroy(this.gameObject, 0.5f);
     }
 }
