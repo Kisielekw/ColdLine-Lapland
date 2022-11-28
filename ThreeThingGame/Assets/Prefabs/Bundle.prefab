@@ -134,3 +134,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 165bfa6c6eaa08f42ba09df74b7f013a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 21300000, guid: 3184b68e13463bf4ea31057f49b607f1, type: 3}
+  HitSounds: []

@@ -144,3 +144,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 165bfa6c6eaa08f42ba09df74b7f013a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 2506533714945052124, guid: 8476c79705b9d09418d8c440338074b1, type: 3}
+  - {fileID: -5150839716513306818, guid: 8476c79705b9d09418d8c440338074b1, type: 3}
+  - {fileID: -6360162600134972922, guid: 8476c79705b9d09418d8c440338074b1, type: 3}
+  - {fileID: 6595839111239107328, guid: 8476c79705b9d09418d8c440338074b1, type: 3}
+  HitSounds: []
