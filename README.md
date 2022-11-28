@@ -1,4 +1,4 @@
-# Heaven-And-Hull
+# ColdLine Lapland
 Our submision for the three thing games game jam at the university of hull
 
 ![ColdLine Lapland logo](ReadMeStuff/image.png)
