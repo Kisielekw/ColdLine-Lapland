@@ -98,7 +98,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Bullet: {fileID: 6671131369349271819, guid: 15c32ab83c075a54fa0aa69b4f11e3a0, type: 3}
-  Velocity: {x: 0, y: 0}
+  Health: 1
+  ShotInterval: 2
+  isBoss: 0
+  green: {fileID: 3050481021270411357, guid: d006ea2e6fffea54489d9f1707f37d02, type: 3}
 --- !u!58 &8948668552717984813
 CircleCollider2D:
   m_ObjectHideFlags: 0
