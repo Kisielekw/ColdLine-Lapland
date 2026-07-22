@@ -1,7 +1,6 @@
-# Heaven-And-Hull
-Our submision for the three thing games game jam at the university of hull
-
 ![ColdLine Lapland logo](ReadMeStuff/image.png)
+
+Our submision for the three thing games game jam at the university of hull
 
 Itch.io page: [ColdLine Lapland](https://tcrier2022.itch.io/coldline-lapland-ttg)
 
