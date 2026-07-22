@@ -5,27 +5,27 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638052272169028140
-    m_Hash: 2260918046
+      ticks: 638054479169693810
+    m_Hash: 3098777822
   m_LockFileStatus:
     m_FilePath: C:/Users/Dawid/Desktop/Moje/Programs/Games/Heaven-Or-Hull/ThreeThingGame/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638052272169079472
-    m_Hash: 2073104760
+      ticks: 638054479169759619
+    m_Hash: 1806975064
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
-    - packageId: com.unity.2d.animation@5.0.9
+    - packageId: com.unity.2d.animation@5.0.10
       testable: 0
       isDirectDependency: 1
-      version: 5.0.9
+      version: 5.0.10
       source: 1
-      resolvedPath: C:\Users\Dawid\Desktop\Moje\Programs\Games\Heaven-Or-Hull\ThreeThingGame\Library\PackageCache\com.unity.2d.animation@5.0.9
+      resolvedPath: C:\Users\Dawid\Desktop\Moje\Programs\Games\Heaven-Or-Hull\ThreeThingGame\Library\PackageCache\com.unity.2d.animation@5.0.10
       assetPath: Packages/com.unity.2d.animation
       name: com.unity.2d.animation
       displayName: 2D Animation
@@ -152,7 +152,7 @@ m_PackageAssets:
         verified: 5.0.10
       dependencies:
       - name: com.unity.2d.common
-        version: 4.0.3
+        version: 4.0.4
       - name: com.unity.mathematics
         version: 1.1.0
       - name: com.unity.2d.sprite
@@ -163,7 +163,7 @@ m_PackageAssets:
         version: 1.0.0
       resolvedDependencies:
       - name: com.unity.2d.common
-        version: 4.0.3
+        version: 4.0.4
       - name: com.unity.2d.sprite
         version: 1.0.0
       - name: com.unity.modules.uielements
@@ -195,13 +195,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637704378040000000
+      datePublishedTicks: 637750142350000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/2d.git
-        revision: 66590de9de7c21359f721ef05db04d7f1753bde9
+        revision: 341b7316671d7e6703a7627f67c5fab262c4f1ac
         path: 
     - packageId: com.unity.2d.pixel-perfect@4.0.1
       testable: 0
@@ -280,12 +280,12 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/2d.git
         revision: 7d7470f4ca0ea8353d4c9640b3b6ae9d1ebd9c1d
         path: 
-    - packageId: com.unity.2d.psdimporter@4.1.2
+    - packageId: com.unity.2d.psdimporter@4.1.3
       testable: 0
       isDirectDependency: 1
-      version: 4.1.2
+      version: 4.1.3
       source: 1
-      resolvedPath: C:\Users\Dawid\Desktop\Moje\Programs\Games\Heaven-Or-Hull\ThreeThingGame\Library\PackageCache\com.unity.2d.psdimporter@4.1.2
+      resolvedPath: C:\Users\Dawid\Desktop\Moje\Programs\Games\Heaven-Or-Hull\ThreeThingGame\Library\PackageCache\com.unity.2d.psdimporter@4.1.3
       assetPath: Packages/com.unity.2d.psdimporter
       name: com.unity.2d.psdimporter
       displayName: 2D PSD Importer
@@ -376,14 +376,14 @@ m_PackageAssets:
         verified: 4.1.3
       dependencies:
       - name: com.unity.2d.common
-        version: 4.0.3
+        version: 4.0.4
       - name: com.unity.2d.animation
-        version: 5.0.9
+        version: 5.0.10
       - name: com.unity.2d.sprite
         version: 1.0.0
       resolvedDependencies:
       - name: com.unity.2d.common
-        version: 4.0.3
+        version: 4.0.4
       - name: com.unity.2d.sprite
         version: 1.0.0
       - name: com.unity.modules.uielements
@@ -397,7 +397,7 @@ m_PackageAssets:
       - name: com.unity.modules.uielementsnative
         version: 1.0.0
       - name: com.unity.2d.animation
-        version: 5.0.9
+        version: 5.0.10
       - name: com.unity.mathematics
         version: 1.1.0
       - name: com.unity.modules.animation
@@ -418,13 +418,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637704378080000000
+      datePublishedTicks: 637750142410000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/2d.git
-        revision: 66590de9de7c21359f721ef05db04d7f1753bde9
+        revision: 341b7316671d7e6703a7627f67c5fab262c4f1ac
         path: 
     - packageId: com.unity.2d.sprite@1.0.0
       testable: 0
@@ -477,12 +477,12 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
-    - packageId: com.unity.2d.spriteshape@5.1.5
+    - packageId: com.unity.2d.spriteshape@5.1.7
       testable: 0
       isDirectDependency: 1
-      version: 5.1.5
+      version: 5.1.7
       source: 1
-      resolvedPath: C:\Users\Dawid\Desktop\Moje\Programs\Games\Heaven-Or-Hull\ThreeThingGame\Library\PackageCache\com.unity.2d.spriteshape@5.1.5
+      resolvedPath: C:\Users\Dawid\Desktop\Moje\Programs\Games\Heaven-Or-Hull\ThreeThingGame\Library\PackageCache\com.unity.2d.spriteshape@5.1.7
       assetPath: Packages/com.unity.2d.spriteshape
       name: com.unity.2d.spriteshape
       displayName: 2D SpriteShape
@@ -585,7 +585,7 @@ m_PackageAssets:
       - name: com.unity.mathematics
         version: 1.1.0
       - name: com.unity.2d.common
-        version: 4.0.3
+        version: 4.0.4
       - name: com.unity.2d.path
         version: 4.0.2
       - name: com.unity.modules.physics2d
@@ -594,7 +594,7 @@ m_PackageAssets:
       - name: com.unity.mathematics
         version: 1.1.0
       - name: com.unity.2d.common
-        version: 4.0.3
+        version: 4.0.4
       - name: com.unity.2d.sprite
         version: 1.0.0
       - name: com.unity.modules.uielements
@@ -630,13 +630,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637684997050000000
+      datePublishedTicks: 637750142490000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/2d.git
-        revision: f2df77302616ee97ac0bda980859324394e44df3
+        revision: 341b7316671d7e6703a7627f67c5fab262c4f1ac
         path: 
     - packageId: com.unity.2d.tilemap@1.0.0
       testable: 0
@@ -3709,12 +3709,12 @@ m_PackageAssets:
         url: git@github.com:Unity-Technologies/Unity.Mathematics.git
         revision: 0a3dfafaf606098ea681de4c4be60f3aac63b773
         path: 
-    - packageId: com.unity.2d.common@4.0.3
+    - packageId: com.unity.2d.common@4.0.4
       testable: 0
       isDirectDependency: 0
-      version: 4.0.3
+      version: 4.0.4
       source: 1
-      resolvedPath: C:\Users\Dawid\Desktop\Moje\Programs\Games\Heaven-Or-Hull\ThreeThingGame\Library\PackageCache\com.unity.2d.common@4.0.3
+      resolvedPath: C:\Users\Dawid\Desktop\Moje\Programs\Games\Heaven-Or-Hull\ThreeThingGame\Library\PackageCache\com.unity.2d.common@4.0.4
       assetPath: Packages/com.unity.2d.common
       name: com.unity.2d.common
       displayName: 2D Common
@@ -3812,13 +3812,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637408843940000000
+      datePublishedTicks: 637750142160000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/2d.git
-        revision: c97def465b1932276762fc13f4cfee58da99d5e9
+        revision: 341b7316671d7e6703a7627f67c5fab262c4f1ac
         path: 
     - packageId: com.unity.2d.path@4.0.2
       testable: 0
